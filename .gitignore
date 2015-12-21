@@ -1,0 +1,6 @@
+# Sources
+alt12dicts-*
+
+# Vim ignores
+*.swp
+*.swo
