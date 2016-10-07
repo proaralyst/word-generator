@@ -103,7 +103,7 @@ def main():
         #Generate a word
         word = grams.random_first()
 
-        while len(word) < sys.argv[1]:
+        while len(word) < int(sys.argv[1]):
             word += grams.next_character(word[-2:])
 
         print(word)
